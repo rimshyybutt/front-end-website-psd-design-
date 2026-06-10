@@ -1,0 +1,654 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header-1{
+    background-color: #f55100;
+    display: flex;
+    justify-content: center;
+  position: relative;
+  padding: 5px 50px;
+
+}
+
+.text .icon-1{
+  display: flex;
+    
+}
+.text .icon-1 i {
+        padding: 5px 0px;
+}
+.text  .heading-1{
+    margin: 2px 11px;
+    font-size: 15px;}
+.icc{
+    display: flex;
+    align-items: center;
+    padding: 1px 1px;
+   position: absolute;
+   right: 0;
+   top: 0%;
+   
+   color: white;
+}
+.icon-f {
+    margin: 0px 5px;  
+   
+}
+.icon-f a{color: white;
+    transition:all 0.6s;
+    }
+
+#f1:hover a{
+color: black;
+}
+#f2:hover a{
+    color: black;
+    }
+#f3:hover a{
+        color: black;
+        }
+#f4:hover a{
+            color: black;
+            }
+ 
+.icon-search i {
+    padding: 11px 12px;
+    background-color: #f55100;
+    border-radius: 6px;
+    margin-top: 5px;
+  }
+.header-2{
+    padding: 20px 0;
+}
+.fea-head h2{
+    text-align: center;
+    font-size: 30px;
+    margin:25px 0;
+    color: black;
+}
+
+.list ul{
+    margin: 0;
+
+}
+.list ul li{
+    list-style: none;
+    display: inline-block;  
+}
+.list ul li a {
+    text-decoration: none;
+    padding-right: 33px;
+    color: black;
+    transition: all 0.6s;
+    font-weight: 600;
+    margin-right: 9px;
+    font-size: 18px;
+  }
+
+.list ul li a:hover{
+ color: #f55100;
+}
+.green{
+    padding-top: 25px;
+    background-color: black;
+
+    /* position: relative; */
+}
+.mygreen img{
+    background: white;
+    padding: 13px 1px;
+    border-radius: 126px;
+   transition: all 0.6s;
+   text-align: center;
+   margin-left: 83px;
+   
+}
+.tt p{
+    padding-top: 15px;
+    text-align: center;
+    transition:all 0.6s;
+}
+
+.mygreen:hover p{
+    color: #f55100;
+}
+.mygreen:hover img {
+    background-color: #f55100;
+}
+
+/* .mygreen::after {
+    content: "";
+    position: absolute;
+    left: 23px;
+    top: 3px;
+    width: 21%;
+    border-radius: 33px;
+    background-color: white;
+    height: 56px;
+    z-index: 0;
+  }
+.mygreen img{
+   z-index: 1;
+   position: absolute;
+}
+.mygreen img:hover .mygreen::after {
+    /* filter: brightness(0) saturate(100%) invert(32%) sepia(86%) saturate(1445%) hue-rotate(360deg) brightness(101%) contrast(107%); */
+
+.house{
+    padding: 100px 100px;
+}
+/* .house:after{
+  content: "";
+  position: absolute;
+  left: 73px;
+  top: 900px;
+  width: 18%;
+  background-color: #f55100;
+  height: 600px;
+  z-index: -1;
+} */
+.time{
+    position: relative;
+}
+
+  .time::before {
+    content: "";
+  
+    position: absolute;
+  
+    z-index: 1;
+  
+    width: 149%;
+  
+    height: 347px;
+  
+    background: #1c1c1c;
+  
+    bottom: -464px;
+  
+    left: -282px;
+  
+    border-top-left-radius: 211px;
+  
+    border-bottom-left-radius: 194px;
+  
+  }
+  .time h3{
+    color: #7a7a7a;
+  position: absolute;
+  
+  font-weight: 600;
+  top: 198px;
+  left: -148px;
+  }
+  .new{
+    margin-top: 11px;
+  
+  }
+  .picture img{
+    width: 100%;
+  }
+
+.time p {
+  font-size: 16px;
+
+  color: #7a7a7a;
+
+  position: absolute;
+
+  top: 248px;
+  left: -151px;
+
+  text-align: left;
+
+  padding: 2px 4px;
+
+  width: 119%;
+
+}
+.move{
+    z-index: 2;
+   position: absolute;
+   bottom: 0;
+}
+span{
+    color: #f55100;
+}
+
+.time a {
+  padding: 8px 14px;
+  text-decoration: none;
+  color: white;
+  background: #f55100;
+  transition: all 0.6s;
+  z-index: 2;
+  position: absolute;
+  left: -148px;
+  top: 451px;
+}
+.time a:hover{
+    transform: scale(1.1);
+
+}
+.black{
+    background-color: #121212;
+}
+.black .col-md-3{
+    margin: 0;
+    padding: 0;
+}
+.black h2{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+/* 
+.something::after {
+    content: "";
+    position: absolute;
+    bottom: 830%;
+    left: 21%;
+    opacity: 0;
+    background-color: #f55100;
+    transform: skewX(-25deg);
+    z-index: 0;
+    height: 61px;
+    width: 73%;
+  }
+
+.something{
+    
+   position: relative;
+    text-align: center;
+   
+    z-index: 2;
+    opacity: 0;
+    transition:0.6s;
+    
+}
+.nomp:hover .transform::after{
+ 
+    opacity: 1;
+} */
+
+/* -------- */
+
+.cat-in {
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 85px;
+    transition: 0.45s;
+
+}
+.cat-in img {
+    width: 100%;
+   
+}
+.cat-in .textt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+    font-weight: 700;
+    transition: 0.45s;
+    
+}
+.cat-in:hover .textt {
+    opacity: 1;
+}
+.cat-in .textt h4 {
+    position: relative;
+    padding: 10px 2px;
+    font-weight: 600;
+    text-align: center;
+   
+}
+.cat-in .textt h4::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(-25deg);
+    background: #f55100;
+    z-index: -1;
+}
+
+/* --------- */
+
+
+.swiper-pagination {
+    display: none;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide .f-text {
+    position: absolute;
+    bottom: 1px;
+    left: 24%;
+    font-size: 16px;
+    color: #1c1c1c;
+
+}
+
+.swiper-slide .f-text p{
+    text-align: center;
+    color: #f55100;
+}
+section{
+    background-color: #121212;
+}
+.footerg{
+    padding: 39px 2px;
+    margin-top: 32px;
+    /* position: relative; */
+}
+/* .footerg::after{
+  
+        content: "";
+        position: absolute;
+        height: 99px;
+        width: 18%;
+        background-color: #f55100;
+        z-index: 0;
+        bottom: 130px;
+      } */
+.mlta{
+      background-color: #f55100;
+      margin-top: -62px;
+      height: 281px;
+      width: 97%;
+      padding: 10px 18px;
+    }
+    .logo-1 img{
+padding: 21px;
+    }
+.btn{
+    margin: 9px -14px;
+}
+.btn a{
+    padding: 8px 14px;
+    text-decoration: none;
+    color: white;
+    background: #f55100;
+    transform: all 0.6s;
+   
+}
+.loreem{
+    color: #7a7a7a;
+}
+form input {
+    padding: 7px 18px;
+    width: 93%;
+}
+.list-1 ul{
+    margin: 0;
+    padding: 0;
+}
+.lorem{
+    color: white;
+}
+
+.list-1 ul li{
+    list-style: none;
+}
+.list-1 ul li a{
+    color: #7a7a7a;
+}
+.list-1 ul li i{
+    padding: 0px 4px;
+    color: #7a7a7a;
+}
+.footer-b{
+    border-top: 1px solid #343d52;
+   
+    color: #7a7a7a;
+text-align: center;
+}
+
+.footer-b a{
+    color: #f55100;
+}
+
+.head h3{
+ 
+    padding-top: 35px;
+    font-size: 24px;
+   
+  
+}
+.last{
+    margin: 0;
+    padding: 0;
+
+}
+
+@media screen and (max-width:1199px) {
+
+    .time::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 129%;
+        height: 438px;
+        background: #1c1c1c;
+        bottom: -425px;
+        border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+        left: -9px;}
+
+        .time h3 {
+           
+            top: 69px;
+            left: 12px;
+          }
+          .time p {
+            top: 114px;
+            left: 4px;}
+           
+            .time a {
+              left: 7px;
+              top: 400px;}
+  .list ul li a {
+    text-decoration: none;
+    padding-right: 19px;
+    color: black;
+    transition: all 0.6s;
+    font-weight: 600;
+    margin-right: 7px;
+    font-size: 17px;
+  }
+  .tt p{
+    text-align: center;
+
+  }
+  .mygreen{
+    text-align: center;
+  }
+  .mygreen img{
+    background: white;
+    padding: 13px 1px;
+    border-radius: 126px;
+   transition: all 0.6s;
+   text-align: center;
+   margin-left: 0px;
+   
+}
+.tt p{
+    padding-top: 15px;
+    text-align: center;
+    transition:all 0.6s;
+}
+
+}
+
+
+@media screen and (max-width:992px) {
+
+
+.list ul li a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: black;
+    transition: all 0.6s;
+    font-weight: 700;
+    margin-right: 0px;
+    font-size: 13px;
+  }
+  .time p {
+    top: 73px;
+    left: 4px;
+    font-size: 14px;
+}
+.time::before {
+
+      height: 379px;
+     
+      bottom: -308px;
+     
+      left: -9px;
+    }
+    .time a {
+        left: 7px;
+        top: 328px;
+      }
+      .time h3 {
+        top: 33px;}
+}
+
+
+@media screen and (max-width:768px) {
+
+    .list ul li a {
+        display: none;
+    }
+.logo{
+    text-align: start;
+
+}
+.time p {
+  top: 44px;
+  left: -26px;
+  font-size: 13px;
+}
+.house {
+  padding: 162px 3px;
+}
+.cat-in {
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 35px;
+  transition: 0.45s;
+  padding-right: 35px;
+}
+    .time h3 {
+      top: -84px;
+      left: 36%;
+    }
+  
+.icon-search{
+    text-align: end;
+     margin-top: -53px;
+      
+    }
+    .time::before {
+       
+        display: none;
+      }
+    .picture img {
+       
+    
+    }
+        .time p {
+            top: -49px;
+            left: -21px;
+            font-size: 13px;
+          }
+          .time a {
+            left: 33%;
+            top: 95px;
+            padding: 7px 4px;
+          }
+         
+
+.new {
+  display: none;
+}
+}
+@media screen and (max-width:575px) {
+    .mlta {
+        background-color: #f55100;
+        margin-top: -69px;
+        height: 302px;
+        width: 100%;
+        padding: 5px 0px;
+        text-align: center;
+      }
+      form input {
+        padding: 4px 8px;
+        width: 86%;
+      }
+    
+      .icc{
+      
+        text-align: center;
+      }
+      .text{
+        display: none;
+      }
+      .text .icon-1 i{
+        text-align: center;
+      }
+      
+      .header-1 {
+        padding: 17px 52px;
+      }
+      .icon-f {
+        margin: -29px -2px;
+        text-align: center;
+        padding: 0px 18px;
+      }
+      .icc {
+        right: 29%;}
+      .heading-1 {
+        margin: 2px 1px;
+        font-size: 14px;
+        text-align: center;
+      }
+      .house {
+        padding: 99px 52px;
+      }
+      .time h3 {
+        top: -84px;
+        left: 37%;
+      }
+      .time a {
+        left: 38%;}
+}
+@media screen and (max-width:375px){
+  
+
+  .time h3 {
+    top: -95px;
+    left: 24%;
+  }
+  .house {
+    padding: 107px 38px;
+  }
+
+
+}
